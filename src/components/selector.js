@@ -11,14 +11,14 @@ import {
 module.exports = React.createClass({
   getInitialState: function() {
     return {
-      item: ''
+      item: 'dog food'
     };
   },
 
   render: function() {
     return (
       <View style={styles.container}>
-        <Text>CAN MY DOG HAVE...</Text>
+        <Text style={styles.text}>CAN MY DOG HAVE</Text>
         <Picker
           style={styles.picker}
           selectedValue={this.state.item}
@@ -61,20 +61,26 @@ var styles = StyleSheet.create({
     alignItems: 'center',
   },
   picker: {
-    width: 250
+    marginTop: 40,
+    width: 250,
   },
   button: {
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
     borderRadius: 5,
-    padding: 5,
+    padding: 10,
     borderColor: 'black',
-    marginTop: 10
+    margin: 10,
+    width: 100,
   },
   buttonText: {
     flex: 1,
     alignSelf: 'center',
     fontSize: 20
+  },
+  text: {
+    marginTop: 60,
+    fontSize: 30
   }
 });
