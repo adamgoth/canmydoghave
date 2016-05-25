@@ -5,12 +5,16 @@ import {
   StyleSheet
 } from 'react-native';
 
-module.exports = React.createClass({
+import Data from '../misc/data';
 
+module.exports = React.createClass({
   render: function() {
+    var item = this.props.item;
+    var info = Data[item];
     return (
       <View style={styles.container}>
-        <Text>{this.props.item}</Text>
+        <Text>{item}</Text>
+        <Text>{info}</Text>
       </View>
     );
   }
