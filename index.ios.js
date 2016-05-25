@@ -1,53 +1,39 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
-  StyleSheet,
-  Text,
-  View
+  Navigator,
+  StyleSheet
 } from 'react-native';
+import Selector from './src/components/selector';
+import ItemInfo from './src/components/itemInfo'
 
-class canmydoghave extends Component {
+var ROUTES = {
+  selector: Selector,
+  itemInfo: ItemInfo
+};
+
+var Root = React.createClass({
+  renderScene: function(route, navigator) {
+    var Component = ROUTES[route.name];
+    return <Component route={route} navigator={navigator} {...route.passProps} />;
+  },
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <Navigator
+        style={styles.container}
+        initialRoute={{ name: 'selector' }}
+        renderScene={this.renderScene}
+        configureScene={() => { return Navigator.SceneConfigs.FloatFromRight; }}
+      />
     );
   }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
 });
 
-AppRegistry.registerComponent('canmydoghave', () => canmydoghave);
+var styles = StyleSheet.create({
+  container: {
+    flex: 1
+  }
+});
+
+AppRegistry.registerComponent('canmydoghave', () => Root);
