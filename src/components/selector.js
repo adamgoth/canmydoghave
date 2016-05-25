@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import {
+  Alert,
   View,
   Text,
   Picker,
@@ -22,6 +23,7 @@ module.exports = React.createClass({
           style={styles.picker}
           selectedValue={this.state.item}
           onValueChange={(item) => this.setState({item: item})}>
+          <Picker.Item label="" value="" />
           <Picker.Item label="Chocolate" value="chocolate" />
           <Picker.Item label="Apples" value="apples" />
           <Picker.Item label="Dog Food" value="dog food" />
@@ -33,12 +35,16 @@ module.exports = React.createClass({
           >
           <Text style={styles.buttonText}>Submit</Text>
         </TouchableHighlight>
-        <Text>{this.state.item}</Text>
       </View>
     )
   },
   onSubmitPress: function() {
-    // pass item in props to info item component, render info item component
+    if (this.state.item === '') {
+      return Alert.alert(
+        'No Item Selected',
+        'Please select an item'
+      )
+    }
     this.props.navigator.push({
       name: 'itemInfo',
       passProps: {
