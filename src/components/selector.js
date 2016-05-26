@@ -24,9 +24,14 @@ module.exports = React.createClass({
           selectedValue={this.state.item}
           onValueChange={(item) => this.setState({item: item})}>
           <Picker.Item label="" value="" />
-          <Picker.Item label="Chocolate" value="chocolate" />
           <Picker.Item label="Apples" value="apples" />
+          <Picker.Item label="Avocado" value="avocado" />
+          <Picker.Item label="Carrots" value="carrots" />
+          <Picker.Item label="Chocolate" value="chocolate" />
           <Picker.Item label="Dog Food" value="dog food" />
+          <Picker.Item label="Grapes" value="grapes" />
+          <Picker.Item label="Raisins" value="raisins" />
+          <Picker.Item label="Salt" value="salt" />
         </Picker>
         <TouchableHighlight
           style={styles.button}
