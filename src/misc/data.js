@@ -8,7 +8,7 @@ module.exports = {
   "apples":
     {
       "answer": "Yes",
-      "info": "Apples are not necessary for your dog's diet but there is no harm in sharing one. The seeds should be avoided as they contain trace amounts of cyanide, but are unlikely to cause harm.",
+      "info": "Apples are not necessary for your dog's diet but there is no harm in sharing one with your best friend. The seeds should be avoided as they contain trace amounts of cyanide, but are unlikely to cause harm.",
       "source": "http://moderndogmagazine.com/articles/10-people-foods-dogs/1896"
     },
     "dog food":

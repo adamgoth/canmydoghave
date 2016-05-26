@@ -5,11 +5,13 @@ import {
   StyleSheet
 } from 'react-native';
 import Selector from './src/components/selector';
-import ItemInfo from './src/components/itemInfo'
+import ItemInfo from './src/components/itemInfo';
+import Disclaimer from './src/components/disclaimer';
 
 var ROUTES = {
   selector: Selector,
-  itemInfo: ItemInfo
+  itemInfo: ItemInfo,
+  disclaimer: Disclaimer,
 };
 
 var Root = React.createClass({
@@ -32,7 +34,8 @@ var Root = React.createClass({
 
 var styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    backgroundColor: '#F5FCFF',
   }
 });
 

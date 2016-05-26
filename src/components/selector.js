@@ -35,6 +35,13 @@ module.exports = React.createClass({
           >
           <Text style={styles.buttonText}>Submit</Text>
         </TouchableHighlight>
+        <TouchableHighlight
+          style={styles.disclaimerButton}
+          underlayColor={'gray'}
+          onPress={this.onDisclaimerPress}
+          >
+          <Text>{'Disclaimer and more information >'}</Text>
+        </TouchableHighlight>
       </View>
     )
   },
@@ -50,6 +57,11 @@ module.exports = React.createClass({
       passProps: {
         item: this.state.item
       }
+    });
+  },
+  onDisclaimerPress: function() {
+    this.props.navigator.push({
+      name: 'disclaimer'
     });
   }
 });
@@ -82,5 +94,9 @@ var styles = StyleSheet.create({
   text: {
     marginTop: 60,
     fontSize: 30
+  },
+  disclaimerButton: {
+    margin: 50,
+    padding: 5,
   }
 });
