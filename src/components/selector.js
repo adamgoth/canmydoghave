@@ -1,4 +1,4 @@
-import React, { Component} from 'react';
+import React from 'react';
 import {
   Alert,
   View,
@@ -7,6 +7,8 @@ import {
   StyleSheet,
   TouchableHighlight
 } from 'react-native';
+import Data from '../misc/data';
+import { capitalize } from 'lodash';
 
 module.exports = React.createClass({
   getInitialState: function() {
@@ -23,15 +25,9 @@ module.exports = React.createClass({
           style={styles.picker}
           selectedValue={this.state.item}
           onValueChange={(item) => this.setState({item: item})}>
-          <Picker.Item label="" value="" />
-          <Picker.Item label="Apples" value="apples" />
-          <Picker.Item label="Avocado" value="avocado" />
-          <Picker.Item label="Carrots" value="carrots" />
-          <Picker.Item label="Chocolate" value="chocolate" />
-          <Picker.Item label="Dog Food" value="dog food" />
-          <Picker.Item label="Grapes" value="grapes" />
-          <Picker.Item label="Raisins" value="raisins" />
-          <Picker.Item label="Salt" value="salt" />
+          {Object.keys(Data).map(item => { return (
+            <Picker.Item label={capitalize(item)} value={item} />
+          )})}
         </Picker>
         <TouchableHighlight
           style={styles.button}
