@@ -53,11 +53,29 @@ module.exports = {
         "info": "Grape and raisin (dried grapes) toxicity is well documented in dogs. Although the exact substance that causes the toxic reaction is not yet known, dogs should not eat grapes and raisins because even small amounts can prove to be fatally toxic for a dog.",
         "source": "http://www.petmd.com/"
       },
+    "green beans":
+      {
+        "answer": "Yes",
+        "info": "Green beans are a good source of plant fibre, vitamin K, vitamin C, and manganese. If your dog has a tendency to put on weight, then replacing some of her regular food with green beans is a great low calorie way to fill her up and help her maintain a healthy weight. Many dogs enjoy green beans frozen.",
+        "source": "http://www.moderndogmagazine.com/"
+      },
+    "oatmeal":
+      {
+        "answer": "Yes",
+        "info": "Oatmeal is a good source of soluble fibre. This can be beneficial for some older dogs that may have trouble maintaining bowel regularity. Oatmeal is also an alternative source of grain for dogs that are allergic to wheat. It can be fed in conjunction with probiotics to enhance their function. Keep in mind oatmeal should always be fed cooked and plain with no sugar or flavouring. As always, check with your veterinarian before making any major changes to your dog’s diet, especially if they are on any medications.",
+        "source": "http://www.moderndogmagazine.com/"
+      },
     "popcorn":
         {
           "answer": "No",
           "info": "While popcorn is not dangerous for your dog like chocolate or grapes are, it is not recommended to give your dog popcorn. Thus, popcorn will add calories to your dogs' daily allowance, so too much popcorn at one time can be bad. Furthermore, some kernels don't 'pop', and can cause tooth damage, become lodged in the mouth and cause infections, dental disease, or cause an upset stomach.",
           "source": "http://company.justfoodfordogs.com/"
+        },
+    "pumpkin":
+        {
+          "answer": "Yes",
+          "info": "Pumpkin is a good source of fibre and beta carotene (a source of vitamin A). Dogs need fibre in their diet. The current trend is towards highly digestible diets that lower stool volume and this is not necessarily a good thing. Keeping the GI tract moving helps keep the cells lining the gut healthy.",
+          "source": "http://www.moderndogmagazine.com/"
         },
     "raisins":
         {
@@ -70,6 +88,12 @@ module.exports = {
         "answer": "No",
         "info": "It's not a good idea to share salty foods like chips or pretzels with your dog. Eating too much salt can cause excessive thirst and urination and lead to sodium ion poisoning. Symptoms of too much salt include vomiting, diarrhea, depression, tremors, elevated body temperature, and seizures. It may even cause death.",
         "source": "http://pets.webmd.com/"
+      },
+    "salmon":
+      {
+        "answer": "Yes",
+        "info": "Salmon is a fatty fish which is also a good source of omega- 3 fatty acids. These fats support the immune system and can be beneficial for skin and coat health. There has also been some indication that they may benefit dogs with allergies. You can feed salmon or salmon oil. If feeding salmon, make sure it’s cooked before serving, as raw salmon can carry a parasite that can make your dog sick.",
+        "source": "http://www.moderndogmagazine.com/"
       },
     "yogurt":
       {
