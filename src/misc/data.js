@@ -23,6 +23,12 @@ module.exports = {
         "info": "Dogs can eat bananas in moderation. Bananas are a good source of potassium, manganese, vitamin B6, vitamin C, fiber, biotin and copper. Bananas are low in sodium and cholesterol, but due to the sugar content in bananas, dogs should only eat them as a treat, and not as a regular part of their diets.",
         "source": "http://www.pet360.com/"
       },
+    "caffiene":
+        {
+          "answer": "No",
+          "info": "Coffee contains a stimulant known as Methylated xanthine. Methylated xanthine stimulates the nervous system in dogs, causing vomiting, restlessness, heart palpitations and even death.",
+          "source": "http://www.foodbeast.com/"
+        },
     "carrots":
       {
         "answer": "Yes",
@@ -44,8 +50,14 @@ module.exports = {
     "eggs":
       {
         "answer": "Yes",
-        "info": "Eggs are a great source of very digestible protein, riboflavin, and selenium. For some dogs that are prone to digestive upset, eggs can give them a little protein boost. Adding eggs to your dog's food is a healthy treat. Make sure to use cooked whole egg, as raw egg whites can cause biotin deficiency.",
+        "info": "Like the chocolate rule, the stronger the onion the more toxic it can be. Since garlic is part of the onion family it's even more dangerous to dogs than onions per ounce. Garlic contains compounds that are strong in toxicity. While the effect of garlic consumption to red blood cells won't appear for a few days in dogs, they'll be tired and reluctant to move. The dog's urine will be orange to dark red in color. Like with onions, a blood transfusion might be required in severe cases.",
         "source": "http://www.moderndogmagazine.com/"
+      },
+    "garlic":
+      {
+        "answer": "No",
+        "info": "Grape and raisin (dried grapes) toxicity is well documented in dogs. Although the exact substance that causes the toxic reaction is not yet known, dogs should not eat grapes and raisins because even small amounts can prove to be fatally toxic for a dog.",
+        "source": "http://www.foodbeast.com/"
       },
     "grapes":
       {
@@ -59,11 +71,23 @@ module.exports = {
         "info": "Green beans are a good source of plant fibre, vitamin K, vitamin C, and manganese. If your dog has a tendency to put on weight, then replacing some of her regular food with green beans is a great low calorie way to fill her up and help her maintain a healthy weight. Many dogs enjoy green beans frozen.",
         "source": "http://www.moderndogmagazine.com/"
       },
+    "milk":
+      {
+        "answer": "No",
+        "info": "Milk contains milk sugar that dogs don't have the enzymes to break down. Consumption of milk could lead to vomiting, diarrhea and other gastrointestinal problems. While it's not immediately life-threatening, it can contribute to serious bacterial exposure in dogs that could eventually lead to disease.",
+        "source": "http://www.foodbeast.com/"
+      },
     "oatmeal":
       {
         "answer": "Yes",
         "info": "Oatmeal is a good source of soluble fibre. This can be beneficial for some older dogs that may have trouble maintaining bowel regularity. Oatmeal is also an alternative source of grain for dogs that are allergic to wheat. It can be fed in conjunction with probiotics to enhance their function. Keep in mind oatmeal should always be fed cooked and plain with no sugar or flavouring. As always, check with your veterinarian before making any major changes to your dog’s diet, especially if they are on any medications.",
         "source": "http://www.moderndogmagazine.com/"
+      },
+    "onions":
+      {
+        "answer": "No",
+        "info": "Onions contain compounds that can be harmful to dogs if ingested enough. Onions can damage red blood cells in dogs causing them to become weaker and move around less. If enough onions are consumed, a blood transfusion might be necessary.",
+        "source": "http://www.foodbeast.com/"
       },
     "popcorn":
         {
@@ -94,6 +118,18 @@ module.exports = {
         "answer": "Yes",
         "info": "Salmon is a fatty fish which is also a good source of omega- 3 fatty acids. These fats support the immune system and can be beneficial for skin and coat health. There has also been some indication that they may benefit dogs with allergies. You can feed salmon or salmon oil. If feeding salmon, make sure it’s cooked before serving, as raw salmon can carry a parasite that can make your dog sick.",
         "source": "http://www.moderndogmagazine.com/"
+      },
+    "shrimp":
+        {
+          "answer": "Yes",
+          "info": "Yes. A few shrimp every now and then is fine for your dog, but only if they are fully cooked and the shell (including the tail, head, and legs) is removed completely. Shrimp are high in antioxidants, vitamin B-12, and phosphorus, but also low in fat, calories, and carbohydrates.",
+          "source": "http://www.akc.org/"
+        },
+    "yeast dough":
+      {
+        "answer": "No",
+        "info": "The raw yeast dough from making bread can ferment in a dog's stomach, becoming toxic. Aside from the toxicity from alcohol being produced in the stomach, yeast dough can also expand in your dog's stomach or intestines and create a large amount of gas in the digestive system. This can lead to severe pain and a potentially ruptured stomach or intestinal tract. Vomiting, abdominal discomfort and lethargy can also occur.",
+        "source": "http://www.foodbeast.com/"
       },
     "yogurt":
       {
