@@ -23,6 +23,12 @@ module.exports = {
         "info": "Dogs can eat bananas in moderation. Bananas are a good source of potassium, manganese, vitamin B6, vitamin C, fiber, biotin and copper. Bananas are low in sodium and cholesterol, but due to the sugar content in bananas, dogs should only eat them as a treat, and not as a regular part of their diets.",
         "source": "http://www.pet360.com/"
       },
+    "bread":
+      {
+        "answer": "Yes",
+        "info": "Small amounts of plain bread (no spices and definitely no raisins) won’t hurt your dog, but it also won’t provide any health benefits either. It has no nutritional value and can really pack on the carbohydrates and calories, just like in people. Homemade breads are a better option than store-bought, as bread from the grocery store typically contains unnecessary preservatives, but it’s best to avoid it all together.",
+        "source": "http://www.pet360.com/"
+      },
     "caffiene":
         {
           "answer": "No",
@@ -40,6 +46,12 @@ module.exports = {
         "answer": "No",
         "info": "Chocolate can lead to illness and even death in dogs. Vets say it’s one of the most common causes of dog poisoning. If you think your pooch might've eaten chocolate -- especially the darker kinds -- call your vet right away.",
         "source": "http://pets.webmd.com/dogs/guide/dogs-and-chocolate-get-the-facts"
+      },
+    "cinnamon":
+      {
+        "answer": "No",
+        "info": "Cinnamon and its oils can irritate the inside of pets’ mouths, making them uncomfortable and sick. It can lower a dog’s blood sugar too much and can lead to diarrhea, vomiting, increased, or decreased heart rate and even liver disease. If they inhale it in powder form, cinnamon can cause difficulty breathing, coughing, and choking.",
+        "source": "http://www.redbarninc.com/"
       },
     "dog food":
       {
@@ -89,6 +101,12 @@ module.exports = {
         "info": "Onions contain compounds that can be harmful to dogs if ingested enough. Onions can damage red blood cells in dogs causing them to become weaker and move around less. If enough onions are consumed, a blood transfusion might be necessary.",
         "source": "http://www.foodbeast.com/"
       },
+    "peanut butter":
+      {
+        "answer": "Yes",
+        "info": "Just like whole peanuts, peanut butter is an excellent source of protein for dogs. It contains heart-healthy fats, vitamins B and E and niacin. Raw, unsalted peanut butter is the healthiest option because it doesn’t contain xylitol, a sugar substitute that can be toxic to dogs.",
+        "source": "http://www.akc.org/"
+      },
     "popcorn":
         {
           "answer": "No",
@@ -123,6 +141,12 @@ module.exports = {
         {
           "answer": "Yes",
           "info": "Yes. A few shrimp every now and then is fine for your dog, but only if they are fully cooked and the shell (including the tail, head, and legs) is removed completely. Shrimp are high in antioxidants, vitamin B-12, and phosphorus, but also low in fat, calories, and carbohydrates.",
+          "source": "http://www.akc.org/"
+        },
+    "turkey":
+        {
+          "answer": "Yes",
+          "info": "Turkey is fine for dogs as long as it is not covered in garlic (which can be very toxic to dogs) and seasonings. Also be sure to remove excess fat and skin from the meat and don’t forget to check for bones; poultry bones can splinter during digestion, causing blockage or even tears in the intestines.",
           "source": "http://www.akc.org/"
         },
     "yeast dough":
