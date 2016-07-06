@@ -101,11 +101,35 @@ module.exports = {
         "info": "Onions contain compounds that can be harmful to dogs if ingested enough. Onions can damage red blood cells in dogs causing them to become weaker and move around less. If enough onions are consumed, a blood transfusion might be necessary.",
         "source": "http://www.foodbeast.com/"
       },
+    "peaches":
+      {
+        "answer": "Yes",
+        "info": "If your dog is to eat peaches, they should only consume the flesh of a ripe peach, while staying away from any peach pits, because these contain cyanide (which is poisonous to your dog) and could even sometimes pose as a choking hazard, get stuck and cause a blockage in your dog’s digestive tract or lead to intestinal inflammation in your dog (aka enteritis).",
+        "source": "http://ultimatehomelife.com/"
+      },
+    "pears":
+      {
+        "answer": "Yes",
+        "info": "Pears can be a healthy treat for your dog but avoid the seeds. Pears are a source for fiber, folic acid, niacin, phosphorus, potassium, copper, pectin and vitamins A, C, E, B1 and B2.",
+        "source": "http://www.dogchannel.com/"
+      },
+    "peas":
+      {
+        "answer": "Yes",
+        "info": "Dogs can eat peas safely and peas are nutritionally beneficial to our dogs the same way they are to us.",
+        "source": "http://ultimatehomelife.com/"
+      },
     "peanut butter":
       {
         "answer": "Yes",
         "info": "Just like whole peanuts, peanut butter is an excellent source of protein for dogs. It contains heart-healthy fats, vitamins B and E and niacin. Raw, unsalted peanut butter is the healthiest option because it doesn’t contain xylitol, a sugar substitute that can be toxic to dogs.",
         "source": "http://www.akc.org/"
+      },
+    "pizza":
+      {
+        "answer": "No",
+        "info": "Because there are so many ingredients that can be used in pizza, the easiest answer here is no. The chances are that no matter how hard you try to make a pizza dog-friendly, there will always be at least one ingredient involved that should never its way to your dog’s reach at all.",
+        "source": "http://ultimatehomelife.com/"
       },
     "popcorn":
         {
